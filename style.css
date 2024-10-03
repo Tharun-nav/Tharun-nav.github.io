@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+body {
+    background-color:bisque;
+    background-image: linear-gradient(to right,darkcyan, rgb(196, 166, 166));
+    color: #fff;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+
+.logo{
+    font-weight:bold;
+    font-size:30px;
+    margin-right:0
+}
+
+.Headermain{
+    display:flex;
+    background-color:black; 
+    border-bottom: 1px solid #444;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin:auto;
+}
+
+.navBar li{
+    width:160px;
+    cursor: pointer;
+    margin-top: -3;
+    margin-left:-20;
+
+}
+
+.navBar nav{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+.navBar a{
+    font-size:25px;
+    font-weight: bold;
+    text-decoration: none;
+    color:white;
+    margin:-3%;
+}
+
+.navBar a:hover{
+    color:rgb(196, 166, 166)
+
+}
+
+footer {
+    padding:30px;
+    background-color: black;
+    text-align: centre;
+    border-top: 1px solid #444;
+    border-bottom: 1px solid #444;
+}
+
+footer a{
+    color:white;
+    text-decoration:none;
+}
+
+footer a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.profile-img{
+    display:flex;
+    align-items:flex-start;
+    justify-content: center;
+    border-radius: 10px;
+    margin-left:100px
+
+}
