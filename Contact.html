@@ -5,11 +5,7 @@
     <meta name="viewport" content="width=device-width, intial-scale=1.0">
     <title>Tharun Navee's Portoflio</title>
     <link rel="stylesheet " href="style.css">
-    <style type="text/css">
-        body{
-            background-image: url('NewBackground.webp');
-        }
-    </style>
+    
 </head>
 
 <body>
@@ -33,29 +29,26 @@
     </header>
     <section id="contact" class="main-contact">
         <h2>Contact Me</h2>
-    <div id="wrapper">
-        <form action="">
-            <label for="First Name"> First Name  :</label><br><br>
-            <input type="text"placeholder name="name" size="64"
+    <div class="Formcontainer">
+        <form action="action_page.php">
 
-            <label for="Last Name">Last Name  :</label>
-            <input type="text"placeholder name="name" size="64"
+            <label for="First Name">First Name: </label>
+            <input type="text" id="First Name" name="Firstname" placeholder="youre name.">
 
-            <label for="Cellphone">Cellphone  :</label>
-            <input type="tel" name="telephone" size:
-        
-            <label for="Email">Email  :</label>
-            <input type="email" name="email" size="64"
+            <label for="Last Name">Last Name: </label>
+            <input type="text" id="Last Name" name="Lastname" placeholder="youre name.">
 
+            <label for="tel">telephone: </label>
+            <input id="tel" name="phone"placeholder="Your phone number"></input>
 
-    
-            <label for="comments"> Comments  :</label>
-            <textarea name="comments" cols="40" rows="10"></textarea>
-        
-            <input type="submit" value="Submit";
+            <label for="comments">Comments</label>
+            <textarea id="subject" name="subject" placeholder="write something..." style="height:200px"></textarea>
+
+            <input type="submit" value="submit">
 
 
         </form>
+    
     </div> 
     </section>
     <footer id="footer">
