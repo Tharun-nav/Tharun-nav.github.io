@@ -32,7 +32,7 @@ body{
 
 .Headermain{
     display:flex;
-    background-color:black; 
+    background-color: black;
     border-bottom: 1px solid #444;
     border-radius: 50;
     padding: 20px;
@@ -156,8 +156,38 @@ input[type=text ],select, textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
+    margin-top: 5px;
+    margin-bottom: 10px;
     resize: vertical;
 }
 
+input[type=submit]{
+    background-image:linear-gradient(to right,lightblue, beige);
+    color:black;
+    padding: 12px 20px;
+    border-color: black;
+    border-radius: 4px;
+    cursor:pointer;
+
+}
+
+.Formcontainer{
+    border-radius:5px;
+    background-color:grey;
+    padding:20px;
+    width: 600px;
+    margin:auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    margin-right:15%;
+}
+
+.main-contact{
+    text-align: center;
+
+    
+}
