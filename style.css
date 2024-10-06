@@ -1,3 +1,5 @@
+
+/* Header Section */
 * {
     margin: 0;
     padding: 0;
@@ -41,6 +43,7 @@ body{
     margin:auto;
 }
 
+/* Navbar section */
 .navBar li{
     width:160px;
     cursor: pointer;
@@ -68,6 +71,7 @@ body{
 
 }
 
+/* Footer Section */
 footer {
     padding:40px;
     height:70;
@@ -88,7 +92,7 @@ footer a:hover{
     text-decoration: underline;
 }
 
-
+/* Profile Icon for both navBar and Footer */
 .profile-icon{
     width:40px;
     height: 40px;
@@ -105,7 +109,7 @@ footer a:hover{
     text-align: center;
 
 }
-
+/* pfp for about me */
 .pfp{
     display:block;
     margin:auto;
@@ -113,7 +117,7 @@ footer a:hover{
     border-radius: 50px;
 }
 
-
+/* for Contact form */
 .main-contact{
     font-weight:bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -132,7 +136,7 @@ footer a:hover{
     margin:auto;
 
 }
-/*-- This was mainly used for About me portion. Needed it for the introduction part-- */
+/*-- This was mainly used for About me portion. Needed it for the introduction part. It was a flexbox-- */
 .containers1{
     display:flex;
     width:650px;
@@ -196,7 +200,7 @@ form {
 
     
 }
-
+/* Project Area */
 .project1{
 
     margin: center;
@@ -214,3 +218,4 @@ form {
     text-align: center;
     font-weight: bolder;
 }
+
