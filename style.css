@@ -70,10 +70,12 @@ body{
 
 footer {
     padding:40px;
+    height:70;
     background-color: black;
     text-align: center;
     border-top: 1px solid #444;
     border-bottom: 1px solid #444;
+    
 }
 
 footer a{
