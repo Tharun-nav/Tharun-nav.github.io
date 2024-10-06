@@ -69,7 +69,7 @@ body{
 }
 
 footer {
-    padding:30px;
+    padding:40px;
     background-color: black;
     text-align: center;
     border-top: 1px solid #444;
@@ -143,12 +143,15 @@ footer a:hover{
 /*--myvideo is the video in About me section/ transform 
 was mainly used to move the video from bottom right to the middle-- */
 .myvideo{
-
-    text-align: center;
     margin:auto;
     transform: translateY(-300px);
+    width:700px
+}
+.video-elem{
+    width:110%;
 }
 
+/*Contact Form */
 input[type=text ],select, textarea {
 
     width:100%;
@@ -187,7 +190,25 @@ form {
 }
 
 .main-contact{
-    text-align: center;
+    text-align: center
 
     
+}
+
+.project1{
+
+    margin: center;
+    text-align: center;
+    border-radius: 9;
+}
+
+.ProjectImg2{
+
+    text-align: center;
+}
+
+.projects{
+
+    text-align: center;
+    font-weight: bolder;
 }
